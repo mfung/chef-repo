@@ -5,3 +5,13 @@
 ###
 .chef/*.pem
 .chef/encrypted_data_bag_secret
+
+.vagrant
+/cookbooks
+
+# Bundler
+bin/*
+.bundle/*
+
+.kitchen/
+.kitchen.local.yml
